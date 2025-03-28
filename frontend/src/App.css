@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Estilos para navegadores WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px; /* Hace más delgada la barra */
+  height: 8px; /* Para scroll horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color del fondo de la barra */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6; /* Color azul similar al header (bg-blue-500) */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb; /* Color azul más oscuro al hover */
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin; /* Hace más delgada la barra */
+  scrollbar-color: #3b82f6 #f1f1f1; /* thumb y track */
+}

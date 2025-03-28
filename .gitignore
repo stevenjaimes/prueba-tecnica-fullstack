@@ -1,0 +1,59 @@
+# Archivos generados por Vite y React
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/build/
+/frontend/logs/
+/frontend/*.log
+/frontend/npm-debug.log*
+*~
+
+# Archivos de configuración local de Vite
+/vite.config.ts~
+/vite.config.js~
+
+# Archivos de depuración y caché de Vite
+/__snapshots__/
+/jest-cache/
+/test-results/
+
+# Archivos temporales de TypeScript
+/**/*.d.ts
+/**/*.map
+
+
+# Archivos generados por Flask
+/backend/venv/
+/backend/app/*.pyc
+/backend/app/__pycache__/
+**/__pycache__/
+**/*.pyc
+/backend/migrations/
+
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de Docker
+/docker-compose.yml.swp
+/Dockerfile.swp
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+# Otros archivos generados
+*.tgz
+*.zip
+
+# Archivos de depuración
+.debug/
+.pycache/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
