@@ -33,13 +33,13 @@ docker-compose up --build
 ```
 
 ## **🔌 Acceso**  
-| Servicio       | URL                                  | Credenciales (si aplica)       |
-|----------------|--------------------------------------|-------------------------------|
-| Frontend       | [http://localhost:5173](http://localhost:5173) | -                            |
-| Backend API    | [http://localhost:5000](http://localhost:5000) | -                            |
-| Swagger Docs   | [http://localhost:5000/api/docs](http://localhost:5000/api/docs) | -                            |
-| PostgreSQL     | `puerto: 5432`                       | Ver `docker-compose.yml`      |
-| PGAdmin (opcional) | [http://localhost:5050](http://localhost:5050) | `admin@example.com`/`password` |
+| Servicio       | URL                                  |
+|----------------|--------------------------------------|
+| Frontend       | [http://localhost:5173](http://localhost:5173) |
+| Backend API    | [http://localhost:5000](http://localhost:5000) |
+| Swagger Docs   | [http://localhost:5000/api/docs](http://localhost:5000/api/docs) |
+
+
 
 ## **📂 Estructura del Proyecto**  
 ```bash
